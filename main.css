@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(#a986eb,red);
+    min-height:100vh;
+    width:auto;
+    padding: 8px 20px 8px 20px;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    height:100%;
+}
+
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding:0;
+    
+}
+
+#quick-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type:circle;
+}
+nav {
+    border:1px black ridge;
+    padding: 0 5px 0 5px;
+    min-width:fit-content;
+    width: 75%;
+    justify-self: center;
+    
+}
+
+#contact-section{
+    display:flex;
+    flex-direction: column;
+    padding:0 30px 0 30px;
+    
+}
+hr {
+    border:none;
+    height:2px;
+    background-color:black;
+}
+
+footer {
+    position:relative;
+    bottom: 0;
+    align-self: center;
+}
